@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2 align="center">CITYFI</h2>
+<h3 border="1" align="center">CONDUCTORES</h3>
+
+
+                {% for t in text %}
+                    <p align="center">
+                        <button>
+                        {{ t.name }}
+                    </button>
+                    </p>
+                    </br>
+                {% endfor %}
+
+</body>
+</html>
